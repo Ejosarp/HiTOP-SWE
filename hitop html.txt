@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiTOP Sverige</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #2c3e50; color: white; padding: 15px; text-align: center; }
+        nav { background: #34495e; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-size: 18px; }
+        main { padding: 20px; max-width: 800px; margin: auto; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+        .cta { display: block; background: #2980b9; color: white; padding: 15px; text-align: center; margin: 20px 0; text-decoration: none; font-size: 20px; border-radius: 5px; }
+        .cta:hover { background: #1f6690; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HiTOP-SR Studie</h1>
+    </header>
+    <nav>
+        <a href="#om-hitop">Om HiTOP</a>
+        <a href="#om-studien">Om Studien</a>
+        <a href="#delta">Delta i Studien</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+    <main>
+        <section id="om-hitop">
+            <h2>HiTOP</h2>
+            <p>HiTOP (Hierarchical Taxonomy of Psychopathology) är en forskningsbaserad modell som används för att bättre förstå och kategorisera psykiska störningar. HiTOP-SR (Self-Report) är en självrapportformulär som gör det möjligt för individer att bedöma sina egna symptom enligt HiTOP-systemet. Det syftar till att ge en mer nyanserad och precis bild av psykisk hälsa än traditionella diagnossystem.</p>
+        </section>
+        <section id="om-studien">
+            <h2>Studien</h2>
+            <p>Syftet med denna studie är att validera HiTOP-SR på svenska. Studien bidrar till den internationella forskningen om psykisk hälsa och hjälper till att förbättra diagnostik och behandling för svenska individer.</p>
+        </section>
+        <section id="delta">
+            <h2>Delta i Studien</h2>
+            <p>Välj ett formulär att fylla i:</p>
+            <a href="#form45" class="cta">Kort formulär (45 frågor)</a>
+            <a href="#form225" class="cta">Mellanformulär (225 frågor)</a>
+            <a href="#form405" class="cta">Långt formulär (405 frågor)</a>
+        </section>
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>Kontaktuppgifter och eventuell FAQ.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 HiTOP Sverige</p>
+    </footer>
+</body>
+</html>
